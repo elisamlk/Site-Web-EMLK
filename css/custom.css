@@ -540,12 +540,12 @@ ul#menu-primary li a {
 }
 
 /* Home Top banner slider text and button */
-.rotate {
+/* .rotate {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
-}
+} */
 
 .hbanner-txt {
   position: absolute;
@@ -741,53 +741,6 @@ ul#menu-primary li a {
 .projects-sec {
   text-align: center;
 }
-/* tab menu */
-.toolbar {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  display: inline-block;
-  vertical-align: top;
-  overflow: hidden;
-  padding: 0 18px;
-  margin-bottom: 65px;
-  border: none;
-  background: #fff;
-}
-.toolbar button {
-  font-size: 14px;
-  line-height: 14px;
-  color: #39ca76;
-  font-weight: 300;
-  letter-spacing: 1px;
-  padding: 0 15px;
-  text-transform: uppercase;
-  transition: 0.3s;
-  background: none;
-  border-radius: 0;
-  border-right: #d7d7d7 1px solid;
-  margin: 13px 0;
-}
-.toolbar button:last-child {
-  margin-right: 0;
-  border-right: none;
-}
-.toolbar button:hover,
-.toolbar button:focus {
-  box-shadow: none;
-  color: #516abc;
-}
-.tabmenu-mobile {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  background-color: #fff;
-  color: #29ab87;
-  font-size: 21px;
-  border-radius: 5px;
-  margin: 0 auto 35px;
-  cursor: pointer;
-  display: none;
-}
 
 /* project box */
 .work-box {
@@ -798,6 +751,8 @@ ul#menu-primary li a {
 }
 .work-box img {
   position: relative;
+  object-fit: cover;
+  width: 100%;
 }
 .work-box:after {
   position: absolute;
@@ -1172,12 +1127,6 @@ ul#menu-primary li a {
   .jungle-bg-txt {
     font-size: 28px;
     line-height: 28px;
-  }
-
-  .toolbar button {
-    font-size: 13px;
-    line-height: 13px;
-    padding: 0 5px;
   }
 
   #portfolio {
