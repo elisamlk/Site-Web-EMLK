@@ -1,23 +1,4 @@
-/*------------------------------------------------------------------
-[Table of contents]
 
-1. Body
-2. Global Styles
-3. Typography
-4. Colors
-5. Header, sidebar / .exalt-sidebar-menu
-6. Logo / .navbar-brand
-7. Navigation / #menu-primary
-8. Social media / .footer-social
-9. Content / .content-shrink
-10. Left Seaction Heading / .split-color
-11. Header Banner / .header-banner
-12. About #about
-14. Our Projecst / #projects
-
-16. Contact / #contact
--------------------------------------------------------------------*/
-/** ========= GLOBAL STYLES ========= **/
 body {
   font-size: 14px;
   color: #fff;
