@@ -365,7 +365,9 @@
 
               <div class="col-lg-4">
                 <div class="service-box text-center wow fadeInUp">
-                  <div class="service-icon"><i class="fab fa-js-square"></i></div>
+                  <div class="service-icon">
+                    <i class="fab fa-js-square"></i>
+                  </div>
                   <h3 class="heading-border2">Javascript</h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -426,7 +428,10 @@
                 <div class="wow fadeInUp">
                   <h2 class="heading-border">leave a message</h2>
                   <div class="contact-form">
-                    <form id="contact_form">
+                    <form
+                      action="https://formspree.io/f/mnqrzdon"
+                      method="POST"
+                    >
                       <div class="f-field">
                         <input
                           name="fname"
@@ -435,7 +440,6 @@
                           required
                         />
                       </div>
-
                       <div class="f-field">
                         <input
                           name="email"
@@ -444,22 +448,11 @@
                           required
                         />
                       </div>
-
-                      <div class="f-field">
-                        <input
-                          name="phone"
-                          type="text"
-                          placeholder="Phone"
-                          required
-                        />
-                      </div>
-
                       <div class="f-field">
                         <textarea name="msg" placeholder="Message"></textarea>
                       </div>
-
                       <div class="sent-btn">
-                        <input name="submit" type="submit" value="Submit" />
+                        <button type="submit">Send</button>
                       </div>
                     </form>
                   </div>
@@ -519,5 +512,3 @@
     <script defer type="text/javascript" src="js/all.js"></script>
   </body>
 </html>
-
-
